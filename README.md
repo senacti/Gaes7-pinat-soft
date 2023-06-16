@@ -1,1 +1,0 @@
-# Gaes7-pinat-soft
