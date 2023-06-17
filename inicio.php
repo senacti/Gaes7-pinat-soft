@@ -21,16 +21,7 @@
             </div>
             <input type="submit" value="Iniciar sesion" onclick="window.location.href='login.php'">
             <nav>
-                <i class="fa-solid fa-cart-shopping">
-                    <div class="buy-card">
-                        <ul class="nav-card">
-                            <li>Nombre</li>
-                            <li>Referencia</li>
-                            <li>Precio</li>
-                        </ul>
-                        <button>Vaciar carrito</button>
-                    </div>
-                </i>
+                <i class="fa-solid fa-cart-shopping"></i>
             </nav>
         </div>
     </header>
@@ -40,7 +31,7 @@
             <a href=""><b>Inicio</b></a>
         </div>
         <div class="link-secundarios">
-            <a href=""><b>Por tema</b></a>
+            <a href=""><b>Tema</b></a>
         </div>
         <div class="link-secundarios">
             <a href=""><b>Regalos</b></a>
@@ -116,7 +107,7 @@
         </div>
     <h1>Algunos productos</h1>
     <center><hr></center>
-    <div class="container3">
+        <div class="container3">
             <div class="card">
                 <img src="Imagenes/95.jpg">
                 <h6>Globo Metalizado de Cumpleaños</h6>

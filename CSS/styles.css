@@ -84,6 +84,26 @@ input[type="submit"]:hover{
     color: black;
 }
 
+
+
+.nav-secundario .link-secundarios{
+    width: 150px;
+    height: 50px;
+    border: 1px solid;
+    font-size: 18px;
+    color: #9065CA;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-secundario .link-secundarios:hover{
+    border-radius: 10px;
+    background-color: #bca2e0;
+    border-color: black;
+    transition: .5s;
+    color: black;
+}
+
 header .nav-secundario{
     width: 100%;
     min-height: 45px;
@@ -207,52 +227,6 @@ h1{
     border-color: black;
     transition: .5s;
     color: black;
-}
-
-.nav-card{
-    display: none;
-}
-
-.container nav button{
-    display: none;
-}
-
-.nav-card li{
-    list-style: none;
-    padding: 1rem;
-    font-weight: bold;
-}
-
-.container nav i:hover > .buy-card{
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    right: 0;
-    background-color: #ffff;
-}
-
-.container nav i:hover .nav-card{
-    font-size: 1.4rem;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10px 0 10px;
-    border-bottom: solid thin #e1e1e1;
-}
-
-.container nav i:hover .buy-card > button{
-    display: block;
-    width: 90%;
-    padding: 1rem;
-    margin: 10px auto;
-    background-color: transparent;
-    border: solid thin #e1e1e1;
-    color: #494848;
-    cursor: pointer;
-}
-
-.container nav i:hover .buy-card > button:hover{
-    border: solid thin #494848;
-    transition: all .4s;
 }
 
 .container nav i{
