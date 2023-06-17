@@ -1,3 +1,7 @@
+<?php
+include("conexion.php")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
     <title>Registro</title>
 </head>
 <body>
-    <form action="iniciosesion.php">
+    <form action="iniciosesion.php" method="post">
         <h1>Registrarse</h1>
         <hr>
         <i class="fa-solid fa-address-card"></i>
@@ -19,11 +23,11 @@
 
         <i class="fa-solid fa-circle-user"></i>
         <label>Nombres</label>
-        <input type="password" name="Contraseña" placeholder="Nombres">
+        <input type="password" name="nombres" placeholder="Nombres">
 
         <i class="fa-solid fa-circle-user"></i>
         <label>Apellidos</label>
-        <input type="password" name="Contraseña" placeholder="Apellidos">
+        <input type="password" name="apellidos" placeholder="Apellidos">
 
         <i class="fa-solid fa-at"></i>
         <label>Correo electronico</label>
@@ -31,11 +35,11 @@
 
         <i class="fa-solid fa-phone"></i>
         <label>Telefono</label>
-        <input type="number" name="Telefono" placeholder="Telefono">
+        <input type="number" name="telefono" placeholder="Telefono">
 
         <i class="fa-solid fa-unlock"></i>
         <label>Contraseña</label>
-        <input type="password" name="Contraseña" placeholder="Contraseña">
+        <input type="password" name="contraseña" placeholder="Contraseña">
         <hr>
         <button type="submit">Iniciar</button>
     </form>

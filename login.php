@@ -11,6 +11,10 @@
 <body>
     <form action="index.php" method="post">
         <h1>Iniciar sesion</h1>
+        <?php
+        include("conexion.php");
+        include("controlador.php");
+        ?>
         <hr>
         <i class="fa-solid fa-user"></i>
         <label>Usuario</label>

@@ -388,33 +388,35 @@
                 </div>
             </div>
         </div>
-</section>
-<footer class="pie-pagina">
-    <div class="grupo-1">
-        <div class="box">
-            <figure>
-                <a href="#">
-                    <img src="imagenes/1.jpg" alt="logo la piñatera">
-                </a>
-            </figure>
-        </div>
-        <div class="box">
-            <h2>SOBRE NOSOTROS</h2>
-            <p>Somos una empresa que desde hace varios años nos dedicamos a la fabricación y venta de productos de piñatas y también nos dedicamos a hacer todo tipo de eventos para toda ocasión. Si estas interesad@ visitanos te vamos a recibir con los brazos abiertos dispuestos a escucharte y ayudarte en lo que necesites para tus celebraciones.</p>
-        </div>
-        <div class="box">
-            <h2>SIGUENOS</h2>
-            <div class="red-social">
-                <a href="https://api.whatsapp.com/send?phone=%2B573203730040&data=ARCkgijjQCV_7GUIHE0CdZkl6HGFDUYVrGjXTfZIBQaZMP_8hbjb-Qk2hzzky4ewXIRqpIGFqD0rFELulumSempehSQuYWYS2nyhvh_9j39xFm_zpTcfizqH7fF9QVXWDDLUeVRSKugZx2ylEI42uDa24A&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1Uk3LRPENyAeFyWND0B6lQe23VeQ-_zfPL5mOsxIujIgzlki2XwhuPpWA" class="fa fa-whatsapp"></a>
-                <a href="https://www.facebook.com/lapinateraonline" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com/lapinatera1/" class="fa fa-instagram"></a>
-                <a href="https://www.tiktok.com/@lapinatera1" class="fa-brands fa-tiktok"></a>
+    </section>
+    <footer>
+        <div class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="imagenes/1.jpg" alt="logo la piñatera">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Somos una empresa que desde hace varios años nos dedicamos a la fabricación y venta de productos de piñatas y también nos dedicamos a hacer todo tipo de eventos para toda ocasión. Si estas interesad@ visitanos te vamos a recibir con los brazos abiertos dispuestos a escucharte y ayudarte en lo que necesites para tus celebraciones.</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://api.whatsapp.com/send?phone=%2B573203730040&data=ARCkgijjQCV_7GUIHE0CdZkl6HGFDUYVrGjXTfZIBQaZMP_8hbjb-Qk2hzzky4ewXIRqpIGFqD0rFELulumSempehSQuYWYS2nyhvh_9j39xFm_zpTcfizqH7fF9QVXWDDLUeVRSKugZx2ylEI42uDa24A&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1Uk3LRPENyAeFyWND0B6lQe23VeQ-_zfPL5mOsxIujIgzlki2XwhuPpWA" class="fa fa-whatsapp"></a>
+                        <a href="https://www.facebook.com/lapinateraonline" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/lapinatera1/" class="fa fa-instagram"></a>
+                        <a href="https://www.tiktok.com/@lapinatera1" class="fa-brands fa-tiktok"></a>
+                    </div>
+                </div>
             </div>
-        </div> 
-    </div>
-    <div class="grupo-2">
-        <small>&copy; 2023 <b>La piñatera</b> - Todos los derechos son reservados.</small>
-    </div>
-</footer>
+            <div class="grupo-2">
+                <small>&copy; 2023 <b>La piñatera</b> - Todos los derechos son reservados.</small>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
