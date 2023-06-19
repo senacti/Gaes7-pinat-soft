@@ -24,8 +24,8 @@
         <label>Contraseña</label>
         <input type="password" name="Contraseña" placeholder="Contraseña">
         <hr>
-        <button type="submit">Iniciar sesion</button>
-        <br><br>
+        <input type="submit" href="inicio2.php" value="Iniciar">
+        <br>
         <div class="registrar">
             <p>¿No tienes cuenta?</p>
             <a href="registro.php">Registrarse</a>
