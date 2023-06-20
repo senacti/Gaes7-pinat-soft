@@ -15,7 +15,7 @@ header{
     width: 100%;
     min-height: 70px;
     margin-top: 11px;
-
+    background-color: #f6f6fe;
     position: static;
 }
 header .container{
@@ -24,6 +24,7 @@ header .container{
     margin-right: 123px;
     margin-left: 123px;
     align-items: center;
+    background-color: #f6f6fe;
 }
 header .container img{
     height: 150px;
