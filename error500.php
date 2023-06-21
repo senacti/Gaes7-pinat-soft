@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/styles4.css">
-  <title>Error 505</title>
+  <title>Error 500</title>
 </head>
 <body>
   <header>
@@ -14,7 +14,7 @@
     </div>
   </header>
   <div id="clouds">
-    <div class="cloud x1"></div>
+  <div class="cloud x1"></div>
     <div class="cloud x1_5"></div>
     <div class="cloud x2"></div>
     <div class="cloud x3"></div>
@@ -24,11 +24,11 @@
   <div class='c'>
     <div class='_404'>500</div>
     <hr>
-    <div class='_1'>pagina no </div>
+    <div class='_1'>página no </div>
     <br>
     <div class='_1'>encontrada </div>
     <br>
-    <a class='btn' href='#'>volver al inicio</a>
+    <input type="submit" value="Ir a la pagina principal" onclick="window.location.href='inicio.php'">
   </div>
 </body>
 </html>
