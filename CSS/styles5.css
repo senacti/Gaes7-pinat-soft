@@ -15,7 +15,7 @@ body{
 }
 
 form{
-    height: 485px;
+    height: 530px;
     border: 2px solid black;
     padding: 3rem;
     background-color: #D358F7;
@@ -72,22 +72,6 @@ a{
     text-decoration: none;
 }
 
-.registrar a:hover{
-    background-color: white;
-    border-color: black;
-    transition: .5s;
-    color: black;
-}
-
-.registrar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.registrar a{
-    text-decoration: none;
-    color: #303030;
-}
 
 .administrador a{
     text-decoration: none;

@@ -56,22 +56,22 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagenes/2.jpg" class="d-block w-100" height="442px" alt="imagen1">
+                    <img src="imagenes/2.jpg" class="d-block w-100" height="468px" alt="imagen1">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/7.jpg" class="d-block w-100" height="442px" alt="imagen2">
+                    <img src="imagenes/7.jpg" class="d-block w-100" height="468px" alt="imagen2">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/3.jpg" class="d-block w-100" height="442px" alt="imagen3">
+                    <img src="imagenes/3.jpg" class="d-block w-100" height="468px" alt="imagen3">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/4.jpg" class="d-block w-100" height="442px" alt="imagen4">
+                    <img src="imagenes/4.jpg" class="d-block w-100" height="468px" alt="imagen4">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/5.jpg" class="d-block w-100" height="442px" alt="imagen5">
+                    <img src="imagenes/5.jpg" class="d-block w-100" height="468px" alt="imagen5">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/6.jpg" class="d-block w-100" height="442px" alt="imagen6">
+                    <img src="imagenes/6.jpg" class="d-block w-100" height="468px" alt="imagen6">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

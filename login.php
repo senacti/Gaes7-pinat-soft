@@ -9,12 +9,8 @@
     <title>Iniciar sesion</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="inicio2.php" method="post">
         <h1>Iniciar sesion</h1>
-        <?php
-        include("conexion.php");
-        include("controlador.php");
-        ?>
         <hr>
         <i class="fa-solid fa-user"></i>
         <label>Usuario</label>
@@ -30,6 +26,11 @@
             <p>¿No tienes cuenta?</p>
             <a href="registro.php">Registrarse</a>
         </div>
+    </form>
+    <div class="administrador">
+        <p>O si eres administrador pulsa</p>
+        <a href="ingresar.php">aqui</a>
+    </div>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
