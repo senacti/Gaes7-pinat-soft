@@ -10,7 +10,7 @@
     <title>Inicio de sesion administrador</title>
 </head>
 <body>
-    <form action="inicio.php" method="post">
+    <form action="#" method="post">
         <h1>Iniciar sesion</h1>
         <h1>administrador</h1>
         <hr>
@@ -23,46 +23,5 @@
         <hr>
         <input type="submit" value="Iniciar">
     </form>
-
-<?php
-
-if ($_SERVER["REQUEST_METHOD"] == "POST"){
-    $correo = $_POST["gmail"];
-    $contraseña = $_POST["Contraseña"];
-}
-
-if (empty($correo)) {
-   //ingresar todos los campos
-
-}
-
-if (empty($contraseña)) {
-      //ingresar todos los campos
-
-    exit;
-}
-
-$correo_correcto = 'administrador@lapiñatera.com';
-if ($correo !== $correo_correcto) {
-    ?>
-    <div class="validacion">
-      <?php echo "El correo ingresado es incorrecto."; ?>
-    </div>
-    <?php
-    exit;
-}
-
-$contraseña_correcta = 'la_piñatera2023';
-if ($contraseña !== $contraseña_correcta) {
-    ?>
-    <div class="validacion">
-      <?php echo "La contraseña ingresada es incorrecta."; ?>
-    </div>
-    <?php
-    exit;
-}
-header("inicio2.php");
-exit;
-?>
 </body>
 </html>

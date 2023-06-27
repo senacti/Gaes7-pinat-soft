@@ -1,7 +1,3 @@
-<?php
-include("conexion.php")
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +10,7 @@ include("conexion.php")
     <title>Registro</title>
 </head>
 <body>
-    <form action="iniciosesion.php" method="post">
+    <form action="login/registrarse.php" method="post">
         <h1>Registrarse</h1>
         <hr>
         <i class="fa-solid fa-address-card"></i>
@@ -23,15 +19,15 @@ include("conexion.php")
 
         <i class="fa-solid fa-circle-user"></i>
         <label>Nombres</label>
-        <input type="password" name="nombres" placeholder="Nombres">
+        <input type="text" name="nombres" placeholder="Nombres">
 
         <i class="fa-solid fa-circle-user"></i>
         <label>Apellidos</label>
-        <input type="password" name="apellidos" placeholder="Apellidos">
+        <input type="text" name="apellidos" placeholder="Apellidos">
 
         <i class="fa-solid fa-at"></i>
         <label>Correo electronico</label>
-        <input type="email" name="gmail" placeholder="Correo electronico">
+        <input type="email" name="email" placeholder="Correo electronico">
 
         <i class="fa-solid fa-phone"></i>
         <label>Telefono</label>
@@ -41,7 +37,7 @@ include("conexion.php")
         <label>Contraseña</label>
         <input type="password" name="contraseña" placeholder="Contraseña">
         <hr>
-        <button type="submit">Iniciar</button>
+        <button type="submit" name="registro">Registro</button>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

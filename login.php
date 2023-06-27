@@ -9,29 +9,30 @@
     <title>Iniciar sesion</title>
 </head>
 <body>
-    <form action="inicio2.php" method="post">
+    <form action="#" method="post">
         <h1>Iniciar sesion</h1>
         <hr>
+        <?php
+        include("conexion.php");
+        include("controlador.php");
+        ?>
         <i class="fa-solid fa-user"></i>
-        <label>Usuario</label>
-        <input type="text" name="Usuario" placeholder="Nombres del usuario">
+        <label>Nombres del usuario</label>
+        <input type="text" name="Nombresusuario" placeholder="Nombres del usuario">
 
         <i class="fa-solid fa-unlock"></i>
         <label>Contraseña</label>
-        <input type="password" name="Contraseña" placeholder="Contraseña">
+        <input type="password" name="contraseña" placeholder="Contraseña">
         <hr>
-        <input type="submit" href="inicio2.php" value="Iniciar">
+        <input type="submit" href="inicio2.php" name="login" value="Iniciar">
         <br>
         <div class="registrar">
-            <p>¿No tienes cuenta?</p>
-            <a href="registro.php">Registrarse</a>
+            <p>si no tienes cuenta <a href="registro.php">Registrate aqui: </a></p>
         </div>
     </form>
     <div class="administrador">
-        <p>O si eres administrador pulsa</p>
-        <a href="ingresar.php">aqui</a>
+        <p> si eres administrador pulsa <a href="ingresar.php">aqui: </a></p>
     </div>
-    </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
