@@ -12,10 +12,6 @@
     <form action="#" method="post">
         <h1>Iniciar sesion</h1>
         <hr>
-        <?php
-        include("conexion.php");
-        include("controlador.php");
-        ?>
         <i class="fa-solid fa-user"></i>
         <label>Nombres del usuario</label>
         <input type="text" name="Nombresusuario" placeholder="Nombres del usuario">
@@ -31,7 +27,7 @@
         </div>
     </form>
     <div class="administrador">
-        <p> si eres administrador pulsa <a href="ingresar.php">aqui: </a></p>
+        <p> si eres administrador pulsa <a href="ingresar_admin.php">aqui: </a></p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
