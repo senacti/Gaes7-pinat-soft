@@ -1,82 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 body{
-    margin: 0;
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
     background-image: url(/imagenes/1.jpg);
 }
 
-header{
-    width: 100%;
-    min-height: 70px;
-    margin-top: 11px;
-}
-
-header .container{
-    display: flex;
-    margin-right: 123px;
-    margin-left: 123px;
-    align-items: center;
-}
-
-header .container img{
-    height: 150px;
-}
-
-form{
-    height: 870px;
-    border: 2px solid black;
-    padding: 3rem;
+.contenedor{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: auto;
     background-color: #D358F7;
-    border: none;
-    border-radius: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
 }
 
-h1{
-    display: block;
-    border: 2px solid #D358F7;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+form input{
+    width: 92%;
+    outline: none;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: #e4e4e4;
 }
 
 label{
-    font-size: 18px;
-    padding: 10px;
-    font-weight: 300;
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
 }
 
-input{
-    display: block;
-    border: 2px solid black;
-    width: 95%;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-button{
-    float: right;
-    background-color: black;
-    color: white;
-    padding: .5rem;
-    border: none;
-    width: 40%;
-    border-radius: 5px;
-    margin-right: 10px;
+.button{
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
 }
 
-button:hover{
-    background-color: white;
-    color: black;
+.button:hover{
+    background-color: #9065CA;
+    color: #fff;
+}
+
+.Boton_Ingresar{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.button2{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.button2:hover{
+    background-color: #9065CA;
+    color: #fff;
 }

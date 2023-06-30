@@ -1,9 +1,14 @@
+<?php
+    session_start();
+    if (isset($_SESSION['Id']) && isset($_SESSION['NombreUsuario'])){
+?>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles8.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
@@ -19,7 +24,7 @@
                 <input type="text" placeholder="Buscar...">
                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-            <input type="submit" value="Cerrar sesion" onclick="window.location.href='inicio.php'">
+            <a href="Login/CerrarSesion.php">Cerrar Sesion</a>
             <nav>
                 <i class="fa-solid fa-cart-shopping"></i>
             </nav>
@@ -411,3 +416,6 @@
     </footer>
 </body>
 </html>
+<?php }else {
+    header('location: ../Login.php');
+} ?>
