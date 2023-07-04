@@ -31,9 +31,12 @@
             <a href="Registrarse.php" class="button">
                 Registrarse
             </a>
-            <button class="button2">
-                Si eres administrador da click aqui
-            </button>
+            <br>
+            <br>
+
+            <a href="loginadmin.php" class="button2">
+            Si eres administrador da click aqui
+            </a>
         </form>
     </div>
 </body>

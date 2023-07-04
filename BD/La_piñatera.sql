@@ -68,25 +68,6 @@ CREATE TABLE `clientes` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `administrador`
---
-
-CREATE TABLE `administrador` (
-  `administrador_id` int(10) NOT NULL,
-  `administrador_nombre` varchar(40) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci NOT NULL,
-  `administrador_apellido` varchar(40) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci NOT NULL,
-  `administrador_email` varchar(70) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci NOT NULL,
-  `administrador_clave` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
-
---
--- Volcado de datos para la tabla `administrador`
---
-
-INSERT INTO `administrador` (`administrador_id`, `administrador_nombre`, `administrador_apellido`, `administrador_email`, `administrador_clave`) VALUES
-(1, 'Administrador', 'Principal', 'Administrador@lapiñatera.com', 'administrador2023');
-
---
 -- Índices para tablas volcadas
 --
 
@@ -109,10 +90,6 @@ ALTER TABLE `clientes`
   ADD PRIMARY KEY (`Id`);
 
 --
--- Indices de la tabla `administrador`
---
-ALTER TABLE `administrador`
-  ADD PRIMARY KEY (`administrador_id`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -135,13 +112,7 @@ ALTER TABLE `productos`
 --
 ALTER TABLE `clientes`
   MODIFY `Id` int(20) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT de la tabla `administrador`
---
-ALTER TABLE `administrador`
-  MODIFY `administrador_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
+  
 --
 -- Restricciones para tablas volcadas
 --
