@@ -15,6 +15,9 @@
 <body>
     <header>
         <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
             <img src="imagenes/1.jpg" alt="logo">
             <a class="navbar-brand" href="#">| BIENVENIDO ADMINISTRADOR |</a>
             <div class="buscar">
@@ -24,6 +27,17 @@
             <a href="Login/CerrarSesion.php">Cerrar Sesion</a>
         </div>
     </header>
-    <header>
+    <input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a class="bi bi-speedometer2" href="dashboard.php"> Dashboard</a>
+			<a class="bi bi-journal-check" href="roles.php"> Roles</a>
+			<a class="bi bi-grid" href="categorias.php"> Categorias</a>
+			<a class="bi bi-basket2-fill" href="productos.php"> Productos</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
 </body>
 </html>

@@ -61,7 +61,7 @@ if ($Clave !== $clave_correcta) {
     <?php
     exit;
 }
-header("Location: administrador.php");
+header("Location: dashboard.php");
 exit;
 ?>
 
