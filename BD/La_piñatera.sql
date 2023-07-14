@@ -41,13 +41,11 @@ CREATE TABLE `categorias` (
 
 CREATE TABLE `productos` (
   `producto_id` int(20) NOT NULL,
-  `producto_referencia` varchar(70) COLLATE utf8_spanish2_ci NOT NULL,
+  `producto_referencia` varchar(5) COLLATE utf8_spanish2_ci NOT NULL,
   `producto_nombre` varchar(70) COLLATE utf8_spanish2_ci NOT NULL,
   `producto_precio` decimal(30,2) NOT NULL,
   `producto_stock` int(25) NOT NULL,
-  `producto_foto` varchar(500) COLLATE utf8_spanish2_ci NOT NULL,
-  `categoria_id` int(7) NOT NULL,
-  `usuario_id` int(10) NOT NULL
+  `producto_imagen` varchar(255) COLLATE utf8_spanish2_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
 
 -- --------------------------------------------------------
@@ -112,18 +110,6 @@ ALTER TABLE `productos`
 --
 ALTER TABLE `clientes`
   MODIFY `Id` int(20) NOT NULL AUTO_INCREMENT;
-  
---
--- Restricciones para tablas volcadas
---
-
---
--- Filtros para la tabla `productos`
---
-ALTER TABLE `productos`
-  ADD CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`categoria_id`),
-  ADD CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`usuario_id`) REFERENCES `usuario` (`usuario_id`);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

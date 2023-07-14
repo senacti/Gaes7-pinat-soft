@@ -34,7 +34,7 @@
 			<a class="bi bi-speedometer2" href="dashboard.php"> Dashboard</a>
 			<a class="bi bi-journal-check" href="roles.php"> Roles</a>
 			<a class="bi bi-grid" href="categorias.php"> Categorias</a>
-			<a class="bi bi-basket2-fill" href="productos.php"> Productos</a>
+			<a class="bi bi-basket2-fill" href="Crud_Inventario/Productos.php"> Productos</a>
 		</nav>
 		<label for="btn-menu">✖️</label>
 	</div>

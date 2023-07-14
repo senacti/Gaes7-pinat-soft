@@ -113,6 +113,7 @@
                 <h6>Globo Metalizado de Cumpleaños</h6>
                 <div class="informacion">
                     <p>Ref: 13781</p>
+                    <h6>Stock: 24</h6>
                     <h5><b>$5.800</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -122,6 +123,7 @@
                 <h6>Sombrero Cartón Vueltiao</h6>
                 <div class="informacion">
                     <p>Ref: 56689</p>
+                    <p>Stock: 10</p>
                     <h5><b>$2.500</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -131,6 +133,7 @@
                 <h6>Caja de Cartón Mediana para Regalo</h6>
                 <div class="informacion">
                     <p>Ref: 48457</p>
+                    <p>Stock: 43</p>
                     <h5><b>$4.100</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -140,6 +143,7 @@
                 <h6>Festón de Cumpleaños en Cartón</h6>
                 <div class="informacion">
                     <p>Ref: 67428</p>
+                    <p>Stock: 36</p>
                     <h5><b>$5.400</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -149,15 +153,17 @@
                 <h6>Corbata stas wars</h6>
                 <div class="informacion">
                     <p>Ref: 74535</p>
+                    <p>Stock: 33</p>
                     <h5><b>$3.900</b></h5>
                     <input type="submit" value="Añadir al carrito">
-                </div>
+            </div>
             </div>
             <div class="card">
                 <img src="Imagenes/99.jpg">
                 <h6>Globo Metalizado “Baby Shower”</h6>
                 <div class="informacion">
-                    <p>Ref: 65393</p>    
+                    <p>Ref: 65393</p>
+                    <p>Stock: 47</p>    
                     <h5><b>$6.100</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -167,6 +173,7 @@
                 <h6>Globo Metalizado de Baby Shower</h6>
                 <div class="informacion">
                     <p>Ref: 73234</p>
+                    <p>Stock: 16</p>
                     <h5><b>$6.100</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -176,6 +183,7 @@
                 <h6>Plato Fondo Entero Azul Real</h6>
                 <div class="informacion">
                     <p>Ref: 52150</p>
+                    <p>Stock: 19</p>
                     <h5><b>$12.900</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -185,6 +193,7 @@
                 <h6>Globo Emoticones Carita Beso</h6>
                 <div class="informacion">
                     <p>Ref: 28331</p>
+                    <p>Stock: 11</p>
                     <h5><b>$2.000</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -194,6 +203,7 @@
                 <h6>Pitillos de Papel</h6>
                 <div class="informacion">
                     <p>Ref: 39926</p>
+                    <p>Stock: 30</p>
                     <h5><b>$3.200</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -203,6 +213,7 @@
                 <h6>Mantel Plástico Fondo Entero Rojo</h6>
                 <div class="informacion">
                     <p>Ref: 91777</p>
+                    <p>Stock: 40</p>
                     <h5><b>$5.000</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -212,6 +223,7 @@
                 <h6>Corbata Polka Roja</h6>
                 <div class="informacion">
                     <p>Ref: 21105</p>
+                    <p>Stock: 37</p>
                     <h5><b>$4.000</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -221,6 +233,7 @@
                 <h6>Servilleta Fondo Entero Azul Real</h6>
                 <div class="informacion">
                     <p>Ref: 43287</p>
+                    <p>Stock: 31</p>
                     <h5><b>$3.500</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -230,6 +243,7 @@
                 <h6>Bolsa Piñata Plástico</h6>
                 <div class="informacion">
                     <p>Ref: 21458</p>
+                    <p>Stock: 12</p>
                     <h5><b>$1.050</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -239,6 +253,7 @@
                 <h6>Piñata free fire</h6>
                 <div class="informacion">
                     <p>Ref: 78349</p>
+                    <p>Stock: 41</p>
                     <h5><b>$14.400</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -248,6 +263,7 @@
                 <h6>Globo Corazón Rojo</h6>
                 <div class="informacion">
                     <p>Ref: 89100</p>
+                    <p>Stock: 38</p>
                     <h5><b>$2.200</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -257,6 +273,7 @@
                 <h6>Espantasuegras</h6>
                 <div class="informacion">
                     <p>Ref: 40169</p>
+                    <p>Stock: 11</p>
                     <h5><b>$4.200</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -266,6 +283,7 @@
                 <h6>Vela de Cumpleaños Diseño Feliz Cumpleaños</h6>
                 <div class="informacion">
                     <p>Ref: 17536</p>
+                    <p>Stock: 38</p>
                     <h5><b>$5.100</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -275,6 +293,7 @@
                 <h6>Pegatina Decorativa Infantil</h6>
                 <div class="informacion">
                     <p>Ref: 89973</p>
+                    <p>Stock: 29</p>
                     <h5><b>$8.500</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -284,6 +303,7 @@
                 <h6>Caja de Cartón Pequeña</h6>
                 <div class="informacion">
                     <p>Ref: 16112</p>
+                    <p>Stock: 40</p>
                     <h5><b>$2.000</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -293,6 +313,7 @@
                 <h6>Espantasuegras Azul Fucsia</h6>
                 <div class="informacion">
                     <p>Ref: 66208</p>
+                    <p>Stock: 19</p>
                     <h5><b>$1.050</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -302,6 +323,7 @@
                 <h6>Pelotas Antiestrés Emojis</h6>
                 <div class="informacion">
                     <p>Ref: 63811</p>
+                    <p>Stock: 28</p>
                     <h5><b>$2.100</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -311,6 +333,7 @@
                 <h6>Vaso Whisky</h6>
                 <div class="informacion">
                     <p>Ref: 43859</p>
+                    <p>Stock: 3</p>
                     <h5><b>$11.500</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -320,6 +343,7 @@
                 <h6>Letrero Feliz Cumpleaños</h6>
                 <div class="informacion">
                     <p>Ref: 70652</p>
+                    <p>Stock: 33</p>
                     <h5><b>$3.150</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -329,6 +353,7 @@
                 <h6>Globos Metalizados en Látex</h6>
                 <div class="informacion">
                     <p>Ref: 26479</p>
+                    <p>Stock: 49</p>
                     <h5><b>$6,200</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -338,6 +363,7 @@
                 <h6>Mantel Plástico Polka Rojo</h6>
                 <div class="informacion">
                     <p>Ref: 46802</p>
+                    <p>Stock: 26</p>
                     <h5><b>$6.900</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -347,6 +373,7 @@
                 <h6>Globo Metalizado Corazón</h6>
                 <div class="informacion">
                     <p>Ref: 19859</p>
+                    <p>Stock: 50</p>
                     <h5><b>$4.000</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -356,6 +383,7 @@
                 <h6>Vela de Cumpleaños Diseño Feliz Cumpleaños</h6>
                 <div class="informacion">
                     <p>Ref: 22952</p>
+                    <p>Stock: 27</p>
                     <h5><b>$5.100</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -365,6 +393,7 @@
                 <h6>Vela de Cumpleaños Diseño Cajas de Regalos</h6>
                 <div class="informacion">
                     <p>Ref: 98254</p>
+                    <p>Stock: 20</p>
                     <h5><b>$5,100</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
@@ -374,6 +403,7 @@
                 <h6>Espantasuegras Azul Fucsia</h6>
                 <div class="informacion">
                     <p>Ref: 83726</p>
+                    <p>Stock: 48</p>
                     <h5><b>$1.050</b></h5>
                     <input type="submit" value="Añadir al carrito">
                 </div>
