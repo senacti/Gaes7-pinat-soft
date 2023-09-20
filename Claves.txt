@@ -1,3 +1,0 @@
-usuario = AdministradorLapiñatera
-
-clave = administrador2023

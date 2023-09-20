@@ -1,24 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@1,300&display=swap');
 
 *{
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-image: url(/imagenes/1.jpg);
+    background-color: #f2f2f2;
 }
 
 .contenedor{
     width: 330px;
     padding: 2rem 1rem;
-    margin: 162px auto;
-    background-color: #D358F7;
+    margin: 50px auto;
+    color: black;
+    background-color: #d99bec;;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+    font-weight: 1000;
 }
 
 form input{
@@ -35,7 +38,6 @@ form input{
 label{
     font-size: 20px;
     float: left;
-    font-weight: bold;
 }
 
 .button{
@@ -47,33 +49,16 @@ label{
     outline: none;
     border: none;
     background-color: rgb(243, 243, 243);
+    color: black;
     cursor: pointer;
 }
 
 .button:hover{
-    background-color: #9065CA;
+    background-color: rgb(153, 43, 226);
     color: #fff;
 }
 
 .Boton_Ingresar{
     color: aliceblue;
     font-size: 20px;
-}
-
-.button2{
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 15px;
-    outline: none;
-    border: none;
-    background-color: rgb(243, 243, 243);
-    cursor: pointer;
-}
-
-.button2:hover{
-    background-color: #9065CA;
-    color: #fff;
 }
